@@ -1,0 +1,41 @@
+# Enter any state name as input 
+states ={
+    "West Bengal"  : "Kolkata",
+    "Uttar Pradesh" : " Lucknow",
+    "Uttarakhand" : " Dehradun",
+    "Tripura" : "Agartala",
+    "Telangana" : "Hyderabad",
+    "Tamil Nadu" : "Chennai",
+    "Sikkim" : " Gangtok",
+    "Rajasthan" : " Jaipur",
+    "Punjab" : "Chandigarh",
+    "Odisha" : "  Bhubaneswar",
+    "Nagaland" : "Kohima",
+    "Mizoram" : "Aizawl",
+    "Meghalaya" : "Shillong",
+    "Manipur" : "Imphal",
+    "Maharashtra" : "Mumbai",
+    "Madhya Pradesh" : "Bhopal",
+    "Kerala" : "Thiruvananthapuram",
+    "Karnataka" : "Bengaluru",
+    "Jharkhand" : "Ranchi",
+    "Himachal Pradesh" : "Shimla",
+    "Haryana" : "Chandigarh",
+    "Gujarat" : "Gandhinagar",
+    "Goa" : "Panaji",
+    "Chhattisgarh" : "Raipur",
+    "Bihar" : "Patna",
+    "Assam" : "Dispur",
+    "Arunachal Pradesh" : "Itanagar",
+    "Andhra Pradesh" : "Amaravati"  
+    
+}
+
+print ("Please enter the first letter capital and also check the spelling of the state ")
+a = input("Enter the state:  \n")
+
+print ("Capital of the state is: ",
+states.get(a))
+
+
+
